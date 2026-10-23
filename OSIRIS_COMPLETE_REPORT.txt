@@ -1,0 +1,366 @@
+================================================================================
+OSIRIS INTELLIGENCE PLATFORM - COMPLETE DATA EXTRACTION REPORT
+================================================================================
+Base URL: https://osirisai.live
+Frontend: https://osiris-official.vercel.app/
+Version: V4.2 (API v1.0.0)
+Open Source: Yes (no API key required)
+All raw JSON data saved to: C:\Users\karim\AppData\Local\hermes\cache\scratch\osiris_final
+Total data size: 17554960 bytes (16.7 MB)
+
+LIVE DATA OVERVIEW (from /api/stats):
+  Aircraft in flight:    12242
+  Satellites tracked:    18736
+  CCTV cameras:          24698
+  Weather events:        60
+  Nuclear facilities:    64
+  Global incidents:      307
+  Updated:               2026-10-23T13:48:43.987Z
+
+FLIGHTS (/api/flights):
+  Total: 12800
+  Commercial: 8926 | Top airlines: {'AAL': 485, 'SWA': 447, 'DAL': 442, 'UAL': 404, 'RYR': 332}
+  Private: 2814 | 511 private jets
+  Military: 377
+  GPS Jamming: 1
+  Providers: {'adsbfi_mil': 462, 'adsbfi_regional': 0, 'opensky': 12610, 'opensky_auth': False, 'opensky_age_s': 462}
+  Source: opensky-anon | Updated: 2026-10-23T13:58:31.761Z
+
+SATELLITES (/api/satellites):
+  Total: 18748
+  Source: memory-cache | Updated: 2026-10-23T13:59:10.350Z
+    navigation: 144
+    comms: 11305
+    other: 6838
+    science: 16
+    earth_obs: 44
+    military: 401
+  Military satellite missions:
+    Chinese Recon: 164
+    Russian Military: 138
+    Military Recon: 98
+    Early Warning: 1
+
+CCTV CAMERAS (/api/cctv):
+  Total cameras: 21172
+  Regions: 56 | Pending: 15
+  Sources (74 total, top 10):
+    GDOT: 4330 cameras
+    THB Highway Bureau: 2203 cameras
+    UDOT: 2086 cameras
+    DGT: 1937 cameras
+    ASFINAG: 1832 cameras
+    ODOT TripCheck: 1159 cameras
+    HK Transport Dept: 1013 cameras
+    Fintraffic: 816 cameras
+    MDOT MiDrive: 804 cameras
+    INDOT TrafficWise: 707 cameras
+  Updated: 2026-10-23T13:59:51.088Z
+
+MARITIME (/api/maritime):
+  Ports: 52 | Ships tracked: 0 | Chokepoints: 10
+  Updated: 2026-10-23T14:01:50.075Z
+  Top 10 Chokepoints:
+    Strait of Hormuz: 21M bpd oil | LIVE SHIPS: 0 | Risk: HIGH
+    Strait of Malacca: 16M bpd oil | LIVE SHIPS: 0 | Risk: MODERATE
+    Suez Canal: 12% world trade | LIVE SHIPS: 0 | Risk: ELEVATED
+    Bab el-Mandeb: 6.2M bpd oil | LIVE SHIPS: 0 | Risk: CRITICAL
+    Panama Canal: 5% world trade | LIVE SHIPS: 0 | Risk: LOW
+    Turkish Straits: 3M bpd oil | LIVE SHIPS: 0 | Risk: MODERATE
+    Danish Straits: 3.2M bpd oil | LIVE SHIPS: 0 | Risk: LOW
+    Cape of Good Hope: Alt route Suez | LIVE SHIPS: 0 | Risk: LOW
+    Taiwan Strait: 88% large ships | LIVE SHIPS: 0 | Risk: ELEVATED
+    Lombok Strait: Alt Malacca | LIVE SHIPS: 0 | Risk: LOW
+  Top 10 Ports:
+    #1 Shanghai (CN) - container - 47.3M TEU | LIVE: 0 (WAITING: 0)
+    #2 Singapore (SG) - container - 37.2M TEU | LIVE: 0 (WAITING: 0)
+    #3 Ningbo-Zhoushan (CN) - container - 33.3M TEU | LIVE: 0 (WAITING: 0)
+    #4 Shenzhen (CN) - container - 30.0M TEU | LIVE: 0 (WAITING: 0)
+    #5 Guangzhou (CN) - container - 24.2M TEU | LIVE: 0 (WAITING: 0)
+    #6 Busan (KR) - container - 22.7M TEU | LIVE: 0 (WAITING: 0)
+    #7 Qingdao (CN) - container - 22.0M TEU | LIVE: 0 (WAITING: 0)
+    #8 Rotterdam (NL) - container - 14.5M TEU | LIVE: 0 (WAITING: 0)
+    #9 Dubai (Jebel Ali) (AE) - container - 14.0M TEU | LIVE: 0 (WAITING: 0)
+    #10 Port Klang (MY) - container - 13.2M TEU | LIVE: 0 (WAITING: 0)
+
+EARTHQUAKES (/api/earthquakes):
+  Total recent: 43 | Updated: 2026-10-23T13:59:54.109Z
+  Latest events:
+    M4.5 - 207 km NE of Lospalos, Timor Leste (depth: 128.107km) tsunami=0
+    M4.5 - 193 km ENE of Levuka, Fiji (depth: 571.735km) tsunami=0
+    M5.7 - 61 km WNW of Leni, Italy (depth: 10km) tsunami=0
+    M4.9 - 53 km WNW of Leni, Italy (depth: 10km) tsunami=0
+    M4.5 - 18 km WNW of Bantogon, Philippines (depth: 591.289km) tsunami=0
+
+WEATHER (/api/weather): [data not loaded]
+
+SPACE WEATHER (/api/space-weather):
+  Kp Index: 1 | Storm Level: Quiet
+  KP Timestamp: 2026-10-23T14:00:00
+  Solar Flare: C1.2 (peak: 2026-10-23T12:39:00Z)
+  Updated: 2026-10-23T14:04:21.652Z
+
+MARKETS (/api/markets):
+  Count: 33 | Updated: 2026-10-23T14:01:18.541Z
+  Indices (10):
+    S&P 500: 7667 (-0.49%)
+    Nasdaq 100: 29100.25 (-0.14%)
+    VIX: 20.14 (5.83%)
+    Dollar Index: 101.74 (0.13%)
+    US 10Y: 4.99 (0.75%)
+    DAX: 25107.23 (-1.04%)
+    FTSE 100: 10660.25 (-0.6%)
+    Euro Stoxx 50: 6040.29 (-0.77%)
+    Nikkei 225: 62693.16 (-0.34%)
+    Hang Seng: 23093.37 (0.69%)
+  Stocks (7):
+    RTX: 190.905 (-1.95%)
+    LMT: 593.805 (0.66%)
+    NOC: 542.98 (-1.7%)
+    GD: 347.37 (-0.97%)
+    BA: 184.85 (-1.44%)
+    LHX: 251.148 (-1.21%)
+    PLTR: 194.47 (-0.88%)
+  Oil (3):
+    WTI Crude: 102.59 (3.14%)
+    Brent Crude: 111.41 (-1.56%)
+    Natural Gas: 3.067 (9.69%)
+  Commodities (5):
+    Gold: 4035.7 (-0.61%)
+    Silver: 53.985 (-1.42%)
+    Copper: 6.49 (2%)
+    Wheat: 628.75 (0.64%)
+    Corn: 459.5 (-0.22%)
+  Crypto (4):
+    Bitcoin: 81894.31 (0.72%)
+    Ethereum: 2411.48 (1.06%)
+    Solana: 104.95 (1.36%)
+    XRP: 1.3212 (1.03%)
+  Fx (4):
+    EUR/USD: 1.1202 (-0.29%)
+    USD/JPY: 156.762 (-0.87%)
+    GBP/USD: 1.3374 (-0.16%)
+    USD/CNY: 6.6596 (-0.27%)
+
+NEWS (/api/news):
+  Total items: 112 | Updated: 2026-10-23T14:01:42.250Z
+  Sources (18):
+    Osintdefender: OSINTdefender [telegram] - lean: Global incident OSINT
+    WarMonitors: War Monitor [telegram] - lean: Global conflict monitor
+    rybar_in_english: Rybar [telegram] - lean: Russian military OSINT
+    DDGeopolitics: DD Geopolitics [telegram] - lean: Multipolar / Russian
+    KyivIndependent_official: Kyiv Independent [telegram] - lean: Ukrainian newsroom
+    QudsNen: Quds News Network [telegram] - lean: Palestinian / Gaza & West Bank
+    AlMayadeenEnglish: Al Mayadeen English [telegram] - lean: Lebanese / Resistance Axis
+    intelslava: Intel Slava Z [telegram] - lean: Russian military OSINT
+    PressTV: Press TV [telegram] - lean: Iranian state broadcaster
+    bbc: BBC World [wire] - lean: British public broadcaster
+    guardian: The Guardian [wire] - lean: British newsroom
+    aljazeera: Al Jazeera [wire] - lean: Qatari broadcaster
+    timesofisrael: Times of Israel [wire] - lean: Israeli newsroom
+    tass: TASS [wire] - lean: Russian state agency
+    anadolu: Anadolu Agency [wire] - lean: Turkish state agency
+    scmp: SCMP [wire] - lean: Hong Kong newsroom
+    cna: CNA [wire] - lean: Singaporean broadcaster
+    africanews: Africanews [wire] - lean: Pan-African newsroom
+
+CONFLICTS (/api/conflicts):
+  Zones: 15 | Active warzones: 6
+  Sources: ['BBC News', 'Al Jazeera', 'The New York Times']
+  Updated: 2026-10-23T13:59:54.146Z
+  [WAR] UKRAINE WAR (ukraine)
+    Ongoing Russian invasion of Ukraine — active frontlines across eastern and southern regions.
+  [WAR] GAZA CONFLICT (gaza)
+    Active military operations and humanitarian crisis in Gaza Strip.
+  [HIGH] LEBANON BORDER (lebanon)
+    Active cross-border military operations in southern Lebanon.
+  [WAR] SUDAN CIVIL WAR (sudan)
+    Armed conflict between SAF and RSF factions across Sudan.
+  [WAR] MYANMAR CONFLICT (myanmar)
+    Internal conflict — military junta vs opposition forces.
+  [WAR] YEMEN WAR (yemen)
+    Houthi militant operations, Red Sea maritime threats, and coalition strikes.
+  [HIGH] SYRIA (syria)
+    Ongoing civil conflict and localized insurgencies.
+  [WAR] DRC EASTERN CONFLICT (drc)
+    M23 rebel offensive and regional instability in eastern Congo.
+  [HIGH] RED SEA THREAT (red-sea)
+    Houthi anti-ship missile and drone attacks on maritime traffic.
+  [ELEVATED] TAIWAN STRAIT (taiwan)
+    Elevated military drills and regional tension.
+  [ELEVATED] KOREAN DMZ (korea)
+    Ongoing cross-border tension and military posturing.
+  [HIGH] SAHEL INSTABILITY (sahel)
+    Insurgencies and military coups across Mali, Burkina Faso, Niger.
+  [HIGH] SOMALIA (somalia)
+    Al-Shabaab insurgency and counter-terrorism operations.
+  [ELEVATED] IRAQ INSTABILITY (iraq)
+    Ongoing militia activity and counter-terrorism operations.
+  [ELEVATED] ETHIOPIA (ethiopia)
+    Ethnic tensions and regional conflicts across multiple regions.
+
+NUCLEAR FACILITIES (/api/infrastructure):
+  Total: 64 | Updated: 2026-10-23T14:04:07.957Z
+  By country: {'Ukraine': 5, 'France': 4, 'UK': 2, 'Netherlands': 7, 'Sweden': 1, 'Finland': 1, 'Belgium': 1, 'Switzerland': 1, 'Spain': 1, 'Czech Republic': 1, 'Hungary': 1, 'Belarus': 1, 'Russia': 11, 'US': 4, 'Canada': 3, 'China': 6, 'Japan': 4, 'South Korea': 3, 'India': 2, 'Iran': 1, 'UAE': 1, 'South Africa': 1, 'Argentina': 1, 'Brazil': 1}
+  Largest by capacity (MW):
+    Kashiwazaki-Kariwa (Japan) - 7965MW - Suspended
+    Kori/Shin-Kori NPP (South Korea) - 7489MW - Operational
+    Bruce Nuclear (Canada) - 6503MW - Operational
+    Hongyanhe NPP (China) - 6366MW - Operational
+    Daya Bay NPP (China) - 6086MW - Operational
+    Tianwan NPP (China) - 6050MW - Operational
+    Yangjiang NPP (China) - 6000MW - Operational
+    Fuqing NPP (Hualong One) (China) - 6000MW - Operational
+    Hanul NPP (South Korea) - 5928MW - Operational
+    Zaporizhzhia NPP (Ukraine) - 5700MW - Active Conflict Zone
+
+CYBER THREATS (/api/cyber-threats):
+  Active CVEs: 10 | Total CISA KEV: 1754
+  Threat Level: CRITICAL
+  Updated: 2026-10-23T14:04:10.817Z
+  CVE-2026-106931 - CRITICAL - EG Secure Solutions: SiteGuard Server Edition
+  CVE-2026-96656 - CRITICAL - Plex: Media Server
+  CVE-2026-96655 - CRITICAL - Plex: Media Server
+  CVE-2026-96654 - CRITICAL - Plex: Media Server
+  CVE-2026-96652 - CRITICAL - Plex: Media Server
+
+COUNTRY RISK (/api/country-risk):
+  Countries: 20 | Updated: 2026-10-23T14:04:10.284Z
+  PS: CRITICAL (score: 90) - ['active_conflict', 'humanitarian_crisis']
+  YE: CRITICAL (score: 88) - ['active_conflict', 'humanitarian_crisis']
+  UA: CRITICAL (score: 85) - ['active_conflict', 'infrastructure_damage']
+  HT: CRITICAL (score: 85) - ['gang_violence', 'governance_collapse']
+  SD: CRITICAL (score: 84) - ['active_conflict', 'humanitarian_crisis']
+  SY: CRITICAL (score: 82) - ['post_conflict', 'infrastructure_damage']
+  SO: CRITICAL (score: 82) - ['terrorism', 'state_fragility']
+  RU: HIGH (score: 81.6) - ['sanctions', 'military_mobilization']
+  CN: LOW (score: 80.1) - ['strategic_competition', 'taiwan_tensions']
+  AF: CRITICAL (score: 80) - ['post_conflict', 'governance_collapse']
+
+WILDFIRES (/api/fires):
+  Total fires: 1975 | Source: NASA-FIRMS (VIIRS)
+  Updated: 2026-10-23T14:04:33.959Z
+
+GDELT EVENTS (/api/gdelt):
+  Total events: 307 | Source: GDACS RSS API
+  Updated: 2026-10-23T14:01:45.894Z
+
+LIVE NEWS FEEDS (/api/live-news):
+  Total feeds: 15 | Categories: ['mainstream', 'government', 'finance', 'conflict', 'state']
+  NBC News NOW (US) - mainstream - embed: False
+  CBS News 24/7 (US) - mainstream - embed: False
+  ABC News Live (US) - mainstream - embed: False
+  Bloomberg TV (US) - finance - embed: False
+  C-SPAN (US) - government - embed: False
+  CBC News (CA) - mainstream - embed: False
+  Sky News (GB) - mainstream - embed: True
+  France 24 EN (FR) - mainstream - embed: True
+  DW News (DE) - mainstream - embed: True
+  Al Jazeera EN (QA) - mainstream - embed: True
+  NHK World (JP) - mainstream - embed: True
+  CNA 24/7 (SG) - mainstream - embed: True
+  WION (IN) - mainstream - embed: True
+  CGTN (CN) - state - embed: False
+  RT News (RU) - state - embed: False
+
+OSINT TOOLS (/api/osint/*):
+  WHOIS: /api/osint/whois?domain=google.com
+  DNS Lookup: /api/osint/dns?domain=google.com
+  BGP/AS Lookup: /api/osint/bgp?query=8.8.8.8
+  IP Reputation: /api/osint/ip?ip=8.8.8.8
+  Port Scan: /api/osint/portscan?target=8.8.8.8
+  Shodan Lookup: /api/osint/shodan?ip=8.8.8.8
+  CVE Details: /api/osint/cve?cve=CVE-2024-12345
+  SSL Certs: /api/osint/certs?domain=google.com
+  GitHub Recon: /api/osint/github?user=karim1811
+  MAC Lookup: /api/osint/mac?mac=00:1B:44:00:00:01
+  Phone Lookup: /api/osint/phone?phone=15551234567
+  Breach Lookup: /api/osint/leaks?email=test@example.com
+  Threat Sweep: /api/osint/sweep?ip=8.8.8.8
+  Sanctions Check: /api/osint/sanctions?query=name
+  Hudson Rock: /api/osint/hudsonrock?query=google.com
+
+OTHER TOOLS:
+  Network Scanner: /api/scanner?target=8.8.8.8
+  SAR Imagery: /api/sentinel (Copernicus Sentinel-1)
+  Internet Outages: /api/radar (IODA - Georgia Tech)
+  Prediction Engine: /api/oi (requires own LLM API key)
+  Entity Graph: /api/entity/expand?type=country|ip|person&id=NAME
+  Live News Feeds: /api/live-news (15 channels)
+  Frontlines Map: /api/frontlines?region=ukraine (GeoJSON)
+  Region Dossier: /api/region-dossier?lat=X&lng=Y
+  Malware Stream: /api/malware/stream (SSE)
+  OSINT Recon: /api/scanner, /api/radar
+
+================================================================================
+ALL API ENDPOINTS (66+ total)
+================================================================================
+Total endpoints: 64
+  /api/air-quality
+  /api/balloons
+  /api/cctv
+  /api/cctv/frame
+  /api/cctv/proxy
+  /api/cctv/stream-status
+  /api/conflicts
+  /api/country-risk
+  /api/cyber-attacks
+  /api/cyber-threats
+  /api/earthquakes
+  /api/entity/expand
+  /api/fires
+  /api/flights
+  /api/frontlines
+  /api/gdelt
+  /api/geo
+  /api/github-webhook
+  /api/health
+  /api/infrastructure
+  /api/live-news
+  /api/malware
+  /api/malware/stream
+  /api/maritime
+  /api/markets
+  /api/mcp
+  /api/news
+  /api/oi
+  /api/oi/assist
+  /api/oi/models
+  /api/oi/runs
+  /api/oi/trending
+  /api/osint/bgp
+  /api/osint/certs
+  /api/osint/cve
+  /api/osint/dns
+  /api/osint/github
+  /api/osint/hudsonrock
+  /api/osint/ip
+  /api/osint/leaks
+  /api/osint/mac
+  /api/osint/phone
+  /api/osint/portscan
+  /api/osint/sanctions
+  /api/osint/shodan
+  /api/osint/sweep
+  /api/osint/threats
+  /api/osint/whois
+  /api/proxy-tiles
+  /api/radar
+  /api/region-dossier
+  /api/satellites
+  /api/scanner
+  /api/scm-suppliers
+  /api/sdk/ingest
+  /api/sdk/stream
+  /api/sentinel
+  /api/space-weather
+  /api/stats
+  /api/transit
+  /api/weather
+  /api/ai/analyze
+  /api/ai/briefing
+  /api/ai/overview
+
+================================================================================
+END OF REPORT
+================================================================================

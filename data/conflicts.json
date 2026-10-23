@@ -1,0 +1,224 @@
+{
+  "zones": [
+    {
+      "id": "ukraine",
+      "label": "UKRAINE WAR",
+      "severity": "war",
+      "lat": 48.5,
+      "lng": 31.2,
+      "description": "Ongoing Russian invasion of Ukraine \u2014 active frontlines across eastern and southern regions.",
+      "sourceUrl": "https://liveuamap.com/",
+      "region": "ukraine",
+      "headlines": [
+        {
+          "title": "Putin Nears a Prize: Restoring Ties With the U.S. While Giving Up Nothing",
+          "url": "https://www.nytimes.com/2026/10/22/world/europe/putin-trump-ukraine-war.html",
+          "source": "The New York Times"
+        },
+        {
+          "title": "When Starshield Cut Out, Ukrainian Drones Fell From the Skies",
+          "url": "https://www.nytimes.com/2026/10/21/world/europe/starshield-starlink-ukraine.html",
+          "source": "The New York Times"
+        }
+      ],
+      "headlineCount": 2
+    },
+    {
+      "id": "gaza",
+      "label": "GAZA CONFLICT",
+      "severity": "war",
+      "lat": 31.35,
+      "lng": 34.35,
+      "description": "Active military operations and humanitarian crisis in Gaza Strip.",
+      "sourceUrl": "https://israelpalestine.liveuamap.com/",
+      "region": "gaza",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "lebanon",
+      "label": "LEBANON BORDER",
+      "severity": "high",
+      "lat": 33.377,
+      "lng": 35.483,
+      "description": "Active cross-border military operations in southern Lebanon.",
+      "sourceUrl": "https://lebanon.liveuamap.com/",
+      "region": "lebanon",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "sudan",
+      "label": "SUDAN CIVIL WAR",
+      "severity": "war",
+      "lat": 15,
+      "lng": 30,
+      "description": "Armed conflict between SAF and RSF factions across Sudan.",
+      "sourceUrl": "https://sudan.liveuamap.com/",
+      "region": "sudan",
+      "headlines": [
+        {
+          "title": "Drone Strike Kills More Than 150 in Abyei in Sudan\u2019s Civil War",
+          "url": "https://www.nytimes.com/2026/10/21/world/africa/sudan-drone-strikes.html",
+          "source": "The New York Times"
+        }
+      ],
+      "headlineCount": 1
+    },
+    {
+      "id": "myanmar",
+      "label": "MYANMAR CONFLICT",
+      "severity": "war",
+      "lat": 19.5,
+      "lng": 96.5,
+      "description": "Internal conflict \u2014 military junta vs opposition forces.",
+      "sourceUrl": "https://myanmar.liveuamap.com/",
+      "region": "myanmar",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "yemen",
+      "label": "YEMEN WAR",
+      "severity": "war",
+      "lat": 15.5,
+      "lng": 48,
+      "description": "Houthi militant operations, Red Sea maritime threats, and coalition strikes.",
+      "sourceUrl": "https://yemen.liveuamap.com/",
+      "region": "yemen",
+      "headlines": [
+        {
+          "title": "Houthi Strike on Saudi Airport Kills 2 as U.S. Tells Some Diplomats to Leave",
+          "url": "https://www.nytimes.com/2026/10/22/world/middleeast/saudi-houthis-yemen-dammam-airport.html",
+          "source": "The New York Times"
+        }
+      ],
+      "headlineCount": 1
+    },
+    {
+      "id": "syria",
+      "label": "SYRIA",
+      "severity": "high",
+      "lat": 35,
+      "lng": 38.5,
+      "description": "Ongoing civil conflict and localized insurgencies.",
+      "sourceUrl": "https://syria.liveuamap.com/",
+      "region": "syria",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "drc",
+      "label": "DRC EASTERN CONFLICT",
+      "severity": "war",
+      "lat": -1,
+      "lng": 28.5,
+      "description": "M23 rebel offensive and regional instability in eastern Congo.",
+      "sourceUrl": "https://drc.liveuamap.com/",
+      "region": "drc",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "red-sea",
+      "label": "RED SEA THREAT",
+      "severity": "high",
+      "lat": 16,
+      "lng": 40,
+      "description": "Houthi anti-ship missile and drone attacks on maritime traffic.",
+      "sourceUrl": "https://yemen.liveuamap.com/",
+      "region": "red-sea",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "taiwan-strait",
+      "label": "TAIWAN STRAIT",
+      "severity": "elevated",
+      "lat": 24,
+      "lng": 119.5,
+      "description": "Elevated military drills and regional tension.",
+      "sourceUrl": "https://china.liveuamap.com/",
+      "region": "taiwan",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "korean-dmz",
+      "label": "KOREAN DMZ",
+      "severity": "elevated",
+      "lat": 38.3,
+      "lng": 127,
+      "description": "Ongoing cross-border tension and military posturing.",
+      "sourceUrl": "https://liveuamap.com/",
+      "region": "korea",
+      "headlines": [
+        {
+          "title": "South Korea invites North for military talks over border",
+          "url": "https://www.aljazeera.com/news/2026/10/23/south-korea-invites-north-for-military-talks-over-border?traffic_source=rss",
+          "source": "Al Jazeera"
+        }
+      ],
+      "headlineCount": 1
+    },
+    {
+      "id": "sahel",
+      "label": "SAHEL INSTABILITY",
+      "severity": "high",
+      "lat": 14,
+      "lng": 5,
+      "description": "Insurgencies and military coups across Mali, Burkina Faso, Niger.",
+      "sourceUrl": "https://africa.liveuamap.com/",
+      "region": "sahel",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "somalia",
+      "label": "SOMALIA",
+      "severity": "high",
+      "lat": 5,
+      "lng": 46,
+      "description": "Al-Shabaab insurgency and counter-terrorism operations.",
+      "sourceUrl": "https://africa.liveuamap.com/",
+      "region": "somalia",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "iraq",
+      "label": "IRAQ INSTABILITY",
+      "severity": "elevated",
+      "lat": 33.3,
+      "lng": 44.4,
+      "description": "Ongoing militia activity and counter-terrorism operations.",
+      "sourceUrl": "https://iraq.liveuamap.com/",
+      "region": "iraq",
+      "headlines": [],
+      "headlineCount": 0
+    },
+    {
+      "id": "ethiopia",
+      "label": "ETHIOPIA",
+      "severity": "elevated",
+      "lat": 9,
+      "lng": 38.7,
+      "description": "Ethnic tensions and regional conflicts across multiple regions.",
+      "sourceUrl": "https://africa.liveuamap.com/",
+      "region": "ethiopia",
+      "headlines": [],
+      "headlineCount": 0
+    }
+  ],
+  "totalZones": 15,
+  "totalHeadlines": 5,
+  "activeWarzones": 6,
+  "zoneSource": "curated",
+  "timestamp": "2026-10-23T13:59:54.146Z",
+  "sources": [
+    "BBC News",
+    "Al Jazeera",
+    "The New York Times"
+  ],
+  "refreshInterval": 300
+}

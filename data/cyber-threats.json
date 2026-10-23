@@ -1,0 +1,111 @@
+{
+  "threats": [
+    {
+      "id": "CVE-2026-106931",
+      "name": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
+      "vendor": "EG Secure Solutions",
+      "product": "SiteGuard Server Edition",
+      "severity": "CRITICAL",
+      "date": "2026-10-20",
+      "due": "2026-10-23",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-96656",
+      "name": "Plex Media Server External Control of File Name or Path Vulnerability",
+      "vendor": "Plex",
+      "product": "Media Server",
+      "severity": "CRITICAL",
+      "date": "2026-10-20",
+      "due": "2026-10-23",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-96655",
+      "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "vendor": "Plex",
+      "product": "Media Server",
+      "severity": "CRITICAL",
+      "date": "2026-10-20",
+      "due": "2026-11-03",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-96654",
+      "name": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
+      "vendor": "Plex",
+      "product": "Media Server",
+      "severity": "CRITICAL",
+      "date": "2026-10-20",
+      "due": "2026-10-23",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-96652",
+      "name": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
+      "vendor": "Plex",
+      "product": "Media Server",
+      "severity": "CRITICAL",
+      "date": "2026-10-20",
+      "due": "2026-11-03",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-110936",
+      "name": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
+      "vendor": "Siemens",
+      "product": "Software Center",
+      "severity": "CRITICAL",
+      "date": "2026-10-20",
+      "due": "2026-11-03",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-102764",
+      "name": "BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "vendor": "BeyondTrust",
+      "product": "Remote Support",
+      "severity": "CRITICAL",
+      "date": "2026-10-16",
+      "due": "2026-10-19",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2025-61624",
+      "name": "Fortinet Multiple Products Path Traversal Vulnerability",
+      "vendor": "Fortinet",
+      "product": "Multiple Products",
+      "severity": "CRITICAL",
+      "date": "2026-10-16",
+      "due": "2026-10-19",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-21589",
+      "name": "Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "vendor": "Atlassian",
+      "product": "Multiple Products",
+      "severity": "CRITICAL",
+      "date": "2026-10-15",
+      "due": "2026-10-18",
+      "source": "CISA KEV"
+    },
+    {
+      "id": "CVE-2026-105134",
+      "name": "Ahsay AhsayCBS Command Injection Vulnerability",
+      "vendor": "Ahsay",
+      "product": "AhsayCBS",
+      "severity": "CRITICAL",
+      "date": "2026-10-14",
+      "due": "2026-10-17",
+      "source": "CISA KEV"
+    }
+  ],
+  "stats": {
+    "cisa_total": 1754,
+    "shadowserver": "active",
+    "active_cves": 10,
+    "threat_level": "CRITICAL"
+  },
+  "timestamp": "2026-10-23T14:04:10.817Z"
+}

@@ -1,0 +1,17 @@
+{
+  "kp_index": 1,
+  "kp_available": true,
+  "storm_level": "Quiet",
+  "storm_color": "#00E676",
+  "kp_timestamp": "2026-10-23T14:00:00",
+  "alerts": [],
+  "solar_flares": [
+    {
+      "class": "C1.2",
+      "begin": "2026-10-23T12:33:00Z",
+      "peak": "2026-10-23T12:39:00Z",
+      "end": "2026-10-23T12:45:00Z"
+    }
+  ],
+  "timestamp": "2026-10-23T14:04:21.652Z"
+}

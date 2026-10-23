@@ -1,0 +1,11 @@
+{
+  "stats": {
+    "flights": 12242,
+    "sats": 18736,
+    "cctv": 24698,
+    "weather": 60,
+    "nuclear": 64,
+    "incidents": 307
+  },
+  "timestamp": "2026-10-23T13:48:43.987Z"
+}

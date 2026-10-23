@@ -1,0 +1,318 @@
+{
+  "countries": [
+    {
+      "code": "PS",
+      "base_risk": 90,
+      "quake_magnitude": 0,
+      "risk_score": 90,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "active_conflict",
+        "humanitarian_crisis"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "YE",
+      "base_risk": 88,
+      "quake_magnitude": 0,
+      "risk_score": 88,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "active_conflict",
+        "humanitarian_crisis"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "UA",
+      "base_risk": 85,
+      "quake_magnitude": 0,
+      "risk_score": 85,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "active_conflict",
+        "infrastructure_damage"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "HT",
+      "base_risk": 85,
+      "quake_magnitude": 0,
+      "risk_score": 85,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "gang_violence",
+        "governance_collapse"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "SD",
+      "base_risk": 84,
+      "quake_magnitude": 0,
+      "risk_score": 84,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "active_conflict",
+        "humanitarian_crisis"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "SY",
+      "base_risk": 82,
+      "quake_magnitude": 0,
+      "risk_score": 82,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "post_conflict",
+        "infrastructure_damage"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "SO",
+      "base_risk": 82,
+      "quake_magnitude": 0,
+      "risk_score": 82,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "terrorism",
+        "state_fragility"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "RU",
+      "base_risk": 72,
+      "quake_magnitude": 9.6,
+      "risk_score": 81.6,
+      "risk_level": "HIGH",
+      "tags": [
+        "sanctions",
+        "military_mobilization"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "CN",
+      "base_risk": 35,
+      "quake_magnitude": 45.1,
+      "risk_score": 80.1,
+      "risk_level": "LOW",
+      "tags": [
+        "strategic_competition",
+        "taiwan_tensions"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "AF",
+      "base_risk": 80,
+      "quake_magnitude": 0,
+      "risk_score": 80,
+      "risk_level": "CRITICAL",
+      "tags": [
+        "post_conflict",
+        "governance_collapse"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "IL",
+      "base_risk": 78,
+      "quake_magnitude": 0,
+      "risk_score": 78,
+      "risk_level": "HIGH",
+      "tags": [
+        "active_conflict",
+        "regional_instability"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "MM",
+      "base_risk": 76,
+      "quake_magnitude": 0,
+      "risk_score": 76,
+      "risk_level": "HIGH",
+      "tags": [
+        "civil_unrest",
+        "military_junta"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "LY",
+      "base_risk": 72,
+      "quake_magnitude": 0,
+      "risk_score": 72,
+      "risk_level": "HIGH",
+      "tags": [
+        "divided_government",
+        "militia_control"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "KP",
+      "base_risk": 70,
+      "quake_magnitude": 0,
+      "risk_score": 70,
+      "risk_level": "HIGH",
+      "tags": [
+        "nuclear_risk",
+        "isolation"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "IR",
+      "base_risk": 68,
+      "quake_magnitude": 0,
+      "risk_score": 68,
+      "risk_level": "HIGH",
+      "tags": [
+        "sanctions",
+        "nuclear_program",
+        "regional_proxy"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "LB",
+      "base_risk": 65,
+      "quake_magnitude": 0,
+      "risk_score": 65,
+      "risk_level": "HIGH",
+      "tags": [
+        "economic_crisis",
+        "political_deadlock"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "ET",
+      "base_risk": 62,
+      "quake_magnitude": 0,
+      "risk_score": 62,
+      "risk_level": "HIGH",
+      "tags": [
+        "ethnic_tensions",
+        "regional_conflicts"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "VE",
+      "base_risk": 60,
+      "quake_magnitude": 0,
+      "risk_score": 60,
+      "risk_level": "HIGH",
+      "tags": [
+        "economic_collapse",
+        "political_instability"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "PK",
+      "base_risk": 55,
+      "quake_magnitude": 0,
+      "risk_score": 55,
+      "risk_level": "ELEVATED",
+      "tags": [
+        "terrorism",
+        "political_instability"
+      ],
+      "basis": "editorial"
+    },
+    {
+      "code": "TW",
+      "base_risk": 45,
+      "quake_magnitude": 0,
+      "risk_score": 45,
+      "risk_level": "ELEVATED",
+      "tags": [
+        "invasion_risk",
+        "semiconductor_dependency"
+      ],
+      "basis": "editorial"
+    }
+  ],
+  "methodology": {
+    "basis": "editorial",
+    "summary": "base_risk is a hand-assigned 0-100 ordering of current disruption, not a calibrated or back-tested probability. Do not cite it as a validated figure.",
+    "baseline_reviewed": "2026-09-15",
+    "countries_covered": 20,
+    "observed_component": "quake_magnitude is the summed magnitude of USGS M4.5+ events in the last day.",
+    "quakes_available": true
+  },
+  "exchanges": [
+    {
+      "name": "NYSE",
+      "country": "US",
+      "open": true
+    },
+    {
+      "name": "NASDAQ",
+      "country": "US",
+      "open": true
+    },
+    {
+      "name": "LSE",
+      "country": "GB",
+      "open": true
+    },
+    {
+      "name": "TSE",
+      "country": "JP",
+      "open": false
+    },
+    {
+      "name": "SSE",
+      "country": "CN",
+      "open": false
+    },
+    {
+      "name": "HKEX",
+      "country": "HK",
+      "open": false
+    },
+    {
+      "name": "BSE",
+      "country": "IN",
+      "open": false
+    },
+    {
+      "name": "FRA",
+      "country": "DE",
+      "open": true
+    },
+    {
+      "name": "TSX",
+      "country": "CA",
+      "open": true
+    },
+    {
+      "name": "ASX",
+      "country": "AU",
+      "open": false
+    },
+    {
+      "name": "KRX",
+      "country": "KR",
+      "open": false
+    },
+    {
+      "name": "MOEX",
+      "country": "RU",
+      "open": true
+    }
+  ],
+  "open_exchanges": 6,
+  "total_exchanges": 12,
+  "timestamp": "2026-10-23T14:04:10.284Z"
+}
